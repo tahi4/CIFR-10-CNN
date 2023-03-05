@@ -13,7 +13,7 @@ class_name = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'h
 
 training_labels = training_labels.astype('int32')
 
-
+# this for loop doesnt contribute to the model, mainly for our visual rep, to see whether the images are being labelled correctly
 for i in range(16):
     plt.subplot(4,4,i+1) #4x4 grid, with each iteration we're choosing a placein grid to put imgs
     plt.xticks([]) #empty so no coordinatate system
