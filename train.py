@@ -11,7 +11,6 @@ training_images, testing_images = training_images / 255, testing_images/ 255
 
 class_name = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck' ]
 
-training_labels = training_labels.astype('int32')
 
 # this for loop doesnt contribute to the model, mainly for our visual rep, to see whether the images are being labelled correctly
 for i in range(16):
